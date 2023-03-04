@@ -653,7 +653,10 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color:#000000!important;
+}
+.col-sm-4, .col-sm-4 a{
+    color: #fff!important;
 }
 
 .container {
@@ -710,6 +713,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    text-shadow: 0 0 5px #000;
 }
 
 h3 {
@@ -756,7 +760,8 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #6A0002;
+    opacity: 0.9;
     padding: 40px 40px 40px 40px;
 }
 
@@ -809,8 +814,8 @@ h4 {
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #000!important;
+    border-color: #000!important;
 }
 
 .bg-banniere {
