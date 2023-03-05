@@ -28,7 +28,6 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -45,7 +44,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px 0px;
 }
 
 .bloc-md {
@@ -362,6 +361,9 @@ a:hover {
     z-index: 2;
 }
 
+#form_1{
+    text-align: center;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
