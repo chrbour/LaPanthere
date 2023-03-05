@@ -296,7 +296,7 @@ a:hover {
     line-height: 44px;
 }
 .citation{
-    font-size: 1em;
+    font-size: 1.1em;
 }
 .title{
     font-size:1.2em;
@@ -965,7 +965,7 @@ h4 {
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
+        max-height: 0px;
         width: auto;
     }
     .nav-invert .navbar-header {
