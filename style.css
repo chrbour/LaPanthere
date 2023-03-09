@@ -924,6 +924,9 @@ h4 {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
+    .bgc-atomic-tangerine {
+        text-align: center;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1078,6 +1081,9 @@ h4 {
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
+        text-align: center;
+    }
+    .bgc-atomic-tangerine {
         text-align: center;
     }
 }
