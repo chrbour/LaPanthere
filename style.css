@@ -388,16 +388,19 @@ a:hover {
 }
 
 .menu a{
-    text-decoration: none;
+    text-decoration: none;border: 2px solid red;
 }
 
 .menu a:hover{
-    text-decoration: underline;
-    
+    text-decoration: underline #6A0002;
 }
 
 .logo{
     margin: 15px 10px;
+}
+
+.bas{
+    line-height: 70px;
 }
 
 @media (min-width: 768px) {
@@ -782,6 +785,9 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    margin: 0;
+    padding: 10px;
+    
 }
 
 .portfolio-thumb {
@@ -812,11 +818,13 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #6d7736;
 }
 
 .bgc-atomic-tangerine {
     background-color: #6A0002; 
+    display: flex; 
+    justify-content: center;
 }
 
 .tc-white {
@@ -831,6 +839,7 @@ h4 {
 .btn-atomic-tangerine:hover {
     opacity:0.6;
     color: #FFFFFF!important;
+    box-shadow: 0 0 0 2px #000;
 }
 
 .ltc-white {
@@ -879,20 +888,8 @@ h4 {
     }
 }
 
-@media (max-width: 992px) and (min-width: 768px) {
-    .navbar .nav {
-        max-width: 80%
-    }
-    .nav-center.navbar .nav {
-        max-width: 100%
-    }
-}
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
+
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
@@ -954,7 +951,8 @@ h4 {
         float: none!important;
     }
     .navbar.row {
-        margin-left: 0;height: 150px!important;
+        margin-left: 0;
+        height: 150px!important;
         margin-right: 0;
     }
     .site-navigation {
@@ -997,13 +995,9 @@ h4 {
     }
     .navbar-collapse {
         padding: 0;
-        overflow-x: hidden;
-        -webkit-box-shadow: none;
-        box-shadow: none;
     }
-    .navbar-brand img {
-        max-height: 0px;
-        width: auto;
+    .essai{
+        height:500px;
     }
     .nav-invert .navbar-header {
         float: none;
@@ -1065,6 +1059,13 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .entete{
+        display:flex;
+        flex-direction: column;
+    }
+    .navbar-1{
+        overflow-x: visible;
     }
 }
 
