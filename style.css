@@ -298,6 +298,9 @@ a:hover {
 .citation{
     font-size: 1.1em;
 }
+.citation-auteur{
+    font-size: 1.2em;
+}
 .title{
     font-size:1.2em;
 }
@@ -490,12 +493,13 @@ nav .caret {
 
 .mg-lg {
     margin-top: 10px;
-    text-align:center;
+    text-align: center;
     margin-bottom: 40px;
 }
 
 .btn {
     margin: 0 5px 5px 0;
+    text-shadow: 0 0 1px #000;
 }
 
 .btn.pull-right {
@@ -750,7 +754,7 @@ p {
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 700;text-shadow: 1px 1px 3px #000;
 }
 
 .social {
@@ -840,6 +844,7 @@ h4 {
 .btn-atomic-tangerine {
     background: #c16b43;
     color: #FFFFFF!important;
+    border: 1px solid #000;
 }
 
 .btn-atomic-tangerine:hover {
@@ -851,6 +856,7 @@ h4 {
 .ltc-white {
     color: #FFFFFF!important;
     font-size:20px;
+    text-shadow: 0 0 2px #000;
 }
 
 .ltc-white:hover {
