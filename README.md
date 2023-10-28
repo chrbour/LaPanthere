@@ -3,8 +3,15 @@
 ![P4_Contact](https://github.com/chrbour/LaPanthere/assets/108238838/6f20859a-ae74-4b2c-bf16-c85e501f60d0)
 
 # Objectif
-Dans ce 4ème projet d'OpenClassrooms l'objectif était d'améliorer l'accessibilité et la performance d'un site existant.
+Dans ce 4ème projet de la formation Développeur web d'OpenClassrooms l'objectif était d'améliorer l'accessibilité et la performance d'un site existant.
 
+# Langages utlisés
+**HTML, CSS**
+
+# Outils utilisés
+Lighthouse  
+GTmetrix  
+Validation W3C  
 
 # Livrables
 Un fichier au format zip contenant :
@@ -19,3 +26,6 @@ Optimiser le référencement d'un site web.
 Optimiser la taille et la vitesse d’un site web.  
 Assurer l'accessibilité d'un site web.  
 Réaliser une recherche des bonnes pratiques en développement web.  
+
+# Lien vers le site
+https://chrbour.github.io/LaPanthere/
