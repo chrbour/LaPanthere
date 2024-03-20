@@ -5,7 +5,7 @@
 # Objectif
 Dans ce 4ème projet de la formation Développeur web d'OpenClassrooms l'objectif était d'améliorer l'accessibilité et la performance d'un site existant.
 
-# Langages utlisés
+# Langages utilisés
 **HTML, CSS**
 
 # Outils utilisés
